@@ -12,120 +12,62 @@
         <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     </head>
     <body>
-        <header class="auto-layout">
-            <div class="container">
-                <a href="/" class="logo">
-                    <img src="./img/image 1.png" /> 
-                </a>
-                <div class="nav">
-                    <div class="menu">
-                        <a class="text-regular" href="#">Обзоры</a>
-                        <a class="text-regular" href="#">Преимущества</a>
-                        <a class="text-regular" href="#">Автоматика</a>
-                    </div>
-                    <button class="green-button auto-layout"><p class="text-bold">Свяжитесь со мной</p></button>
-                </div>
+        <div id="popup">
+            <div class="vector">
+                <img style="height: 18vw;" src="./img/figure-rotated.png"/>
             </div>
-        </header>
-        <main>
-            <div class="hero auto-layout">
-                <div class="container">
-                    <h1 class="text-extrabold">Арочные теплицы <br />с поликарбонатным накрытием</h1>
-                    <div class="info">
-                        <div class="text">
-                            <p class="text-regular">Производим надёжные и устойчивые<br />к погодным условиям теплицы по вашему заказу<br />или предлагаем готовые с доставкой<br />и установкой</p>
-                            <div class="features">
-                                <span><img src="./img/Vector.png" /><p class="text-bold">Бесплатная доставка по всей Украине</p></span>
-                                <span><img src="./img/Vector.png" /><p class="text-bold">Подарок каждому покупателю</p></span>
-                            </div>
-                            <div class="info-nav">
-                                <button class="green-button auto-layout"><p class="text-bold">Заказать теплицу</p></button>
-                                <button class="white-button auto-layout"><p class="text-bold">Почему мы?</p></button>
-                            </div>
-                        </div>
-                        <img style="height: 32vw;" class="hero-img" src="./img/daniel-fazio-oK9EKfqv8HE-unsplash 1.png" />
-                    </div>
-                </div>
+            <div class="popup_info">
+                <h2>Заказ консультации<br/><span>по телефону</span></h2>
+                <h2>+380 (67) - 520–3011</h2>
+                <a href="#" class="close-icon" onclick="toggle()"><img style="height: 1.5vw;" src="./img/close.png"/></a>
             </div>
-            <div class="video_section auto-layout">
+        </div>
+        <div class="wrapper" id="blur">
+            <header class="auto-layout">
                 <div class="container">
-                    <h1 class="text-medium">Обзоры</h1>
-                    <p class="text-regular">Обзоры от покупателей а так же видео по установке<br />и эксплуатации помогут вам с выбором нужного варианта</p>
-                    <h2 class="text-medium">Теплица арочная с размером<br />3 x 4 метров</h2>
-                    <div class="video_section_hero">
-                        <div class="video_frame">
-                            <a href="#open_video">
-                                <div class="badge-yellow"><p class="text-bold auto-layout">Популярное</p></div>
-                                <img style="height: 26.5vw;" src="./img/Rectangle 1753.png" />
-                            </a>
+                    <a href="/" class="logo">
+                        <img src="./img/image 1.png" /> 
+                    </a>
+                    <div class="nav">
+                        <div class="menu">
+                            <a class="text-regular" href="#">Обзоры</a>
+                            <a class="text-regular" href="#">Преимущества</a>
+                            <a class="text-regular" href="#">Автоматика</a>
                         </div>
-                        <div class="video_info">
-                            <section>
-                                <time class="inter-regular">6 июня 2022</time>
-                                <h2 class="text-medium">Теплица арочная<br />с размером 3 x 4 метров</h2>
-                                <p class="text-regular">Сборка — своими руками.<br />Смотрите на видео, как установить самому<br />или заказать теплицу с установкой</p>
-                            </section>
-                            <button class="green-button"><p class="text-bold">Закачать расчёт</p></button>
-                        </div>
-                    </div>
-                    <h3 class="text-medium">Так-же обратите внимание</h3>
-                    <div class="slider swiper">
-                        <div class="slider_container swiper-wrapper">
-                            <a class="card swiper-slide" href="#">
-                                <div class="thumbnail">
-                                    <img style="height: 13vw;" src="./img/Rectangle 1754.png"/>
-                                </div>
-                                <div class="card_info">
-                                    <h3 class="text-medium">Установка теплицы размером 4 метра</h3>
-                                    <p class="text-regular">Сборка и установка теплицы от компании «Вишневый Сад»</p>
-                                    <time class="inter-regular">15 июня 2022</time>
-                                </div>
-                            </a>
-                            <a class="card swiper-slide" href="#">
-                                <div class="thumbnail">
-                                    <img style="height: 13vw;" src="./img/Rectangle 1754.png"/>
-                                </div>
-                                <div class="card_info">
-                                    <h3 class="text-medium">Установка теплицы размером 4,8 метра</h3>
-                                    <p class="text-regular">Сборка и установка теплицы от компании «Вишневый Сад»</p>
-                                    <time class="inter-regular">15 июня 2022</time>
-                                </div>
-                            </a>
-                            <a class="card swiper-slide" href="#">
-                                <div class="thumbnail">
-                                    <img style="height: 13vw;" src="./img/Rectangle 1754.png"/>
-                                </div>
-                                <div class="card_info">
-                                    <h3 class="text-medium">Установка теплицы размером 4 метра</h3>
-                                    <p class="text-regular">Сборка и установка теплицы от компании «Вишневый Сад»</p>
-                                    <time class="inter-regular">15 июня 2022</time>
-                                </div>
-                            </a>
-                            <a class="card swiper-slide" href="#">
-                                <div class="thumbnail">
-                                    <img style="height: 13vw;" src="./img/Rectangle 1754.png"/>
-                                </div>
-                                <div class="card_info">
-                                    <h3 class="text-medium">Установка теплицы размером 7,8 метра</h3>
-                                    <p class="text-regular">Сборка и установка теплицы от компании «Вишневый Сад»</p>
-                                    <time class="inter-regular">15 июня 2022</time>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="swipers">
-                            <div class="swiper-button-prev"><img style="height: 1vw;" src="./img/arrow_left.png"/></div>
-                            <div class="swiper-button-next"><img style="height: 1vw;" src="./img/arrow_right.png"/></div>
-                        </div>
+                        <button onclick="toggle()" class="green-button auto-layout"><p class="text-bold">Свяжитесь со мной<i class="fa fa-phone"></i></p></button>
                     </div>
                 </div>
-                <div class="overlay auto-layout bg-green">
+            </header>
+            <main>
+                <div class="hero auto-layout">
                     <div class="container">
+                        <h1 class="text-extrabold">Арочные теплицы <br />с поликарбонатным накрытием</h1>
+                        <div class="info">
+                            <div class="text">
+                                <p class="text-regular">Производим надёжные и устойчивые<br />к погодным условиям теплицы по вашему заказу<br />или предлагаем готовые с доставкой<br />и установкой</p>
+                                <div class="features">
+                                    <span><img style="height: 1.8vw;" src="./img/Vector.png" /><p class="text-bold">Бесплатная доставка по всей Украине</p></span>
+                                    <span><img style="height: 1.8vw;" src="./img/Vector.png" /><p class="text-bold">Подарок каждому покупателю</p></span>
+                                </div>
+                                <div class="info-nav">
+                                    <button onclick="toggle()" class="green-button auto-layout"><p class="text-bold">Заказать теплицу<i class="fa fa-truck"></i></p></button>
+                                    <button class="white-button auto-layout"><p class="text-bold">Почему мы?</p></button>
+                                </div>
+                            </div>
+                            <img style="height: 32vw;" class="hero-img" src="./img/daniel-fazio-oK9EKfqv8HE-unsplash 1.png" />
+                        </div>
+                    </div>
+                </div>
+                <div class="video_section auto-layout">
+                    <div class="container">
+                        <h1 class="text-medium">Обзоры</h1>
+                        <p class="text-regular">Обзоры от покупателей а так же видео по установке<br />и эксплуатации помогут вам с выбором нужного варианта</p>
                         <h2 class="text-medium">Теплица арочная с размером<br />3 x 4 метров</h2>
                         <div class="video_section_hero">
                             <div class="video_frame">
                                 <a href="#open_video">
                                     <div class="badge-yellow"><p class="text-bold auto-layout">Популярное</p></div>
-                                    <img style="height: 26.5vw;" src="./img/Rectangle 1753 (1).png" />
+                                    <img style="height: 26.5vw;" src="./img/Rectangle 1753.png" />
                                 </a>
                             </div>
                             <div class="video_info">
@@ -134,7 +76,7 @@
                                     <h2 class="text-medium">Теплица арочная<br />с размером 3 x 4 метров</h2>
                                     <p class="text-regular">Сборка — своими руками.<br />Смотрите на видео, как установить самому<br />или заказать теплицу с установкой</p>
                                 </section>
-                                <button class="green-button"><p class="text-bold">Закачать расчёт</p></button>
+                                <button onclick="toggle()" class="green-button"><p class="text-bold">Закачать расчёт</p></button>
                             </div>
                         </div>
                         <h3 class="text-medium">Так-же обратите внимание</h3>
@@ -187,201 +129,272 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="container">
-                    <h2 class="text-medium">Теплица арочная с размером<br />3 x 4 метров</h2>
-                    <div class="video_section_hero">
-                        <div class="video_frame">
-                            <a href="#open_video">
-                                <div class="badge-yellow"><p class="text-bold auto-layout">Популярное</p></div>
-                                <img style="height: 26.5vw;" src="./img/Rectangle 175.png" />
-                            </a>
-                        </div>
-                        <div class="video_info">
-                            <section>
-                                <time class="inter-regular">6 июня 2022</time>
-                                <h2 class="text-medium">Теплица арочная<br />с размером 3 x 4 метров</h2>
-                                <p class="text-regular">Сборка — своими руками.<br />Смотрите на видео, как установить самому<br />или заказать теплицу с установкой</p>
-                            </section>
-                            <button class="green-button"><p class="text-bold">Закачать расчёт</p></button>
-                        </div>
-                    </div>
-                    <h3 class="text-medium">Так-же обратите внимание</h3>
-                    <div class="slider swiper">
-                        <div class="slider_container swiper-wrapper">
-                            <a class="card swiper-slide" href="#">
-                                <div class="thumbnail">
-                                    <img style="height: 13vw;" src="./img/Rectangle 174.png"/>
+                    <div class="overlay auto-layout bg-green">
+                        <div class="container">
+                            <h2 class="text-medium">Теплица арочная с размером<br />3 x 4 метров</h2>
+                            <div class="video_section_hero">
+                                <div class="video_frame">
+                                    <a href="#open_video">
+                                        <div class="badge-yellow"><p class="text-bold auto-layout">Популярное</p></div>
+                                        <img style="height: 26.5vw;" src="./img/Rectangle 1753 (1).png" />
+                                    </a>
                                 </div>
-                                <div class="card_info">
-                                    <h3 class="text-medium">Установка теплицы размером 4 метра</h3>
-                                    <p class="text-regular">Сборка и установка теплицы от компании «Вишневый Сад»</p>
-                                    <time class="inter-regular">15 июня 2022</time>
+                                <div class="video_info">
+                                    <section>
+                                        <time class="inter-regular">6 июня 2022</time>
+                                        <h2 class="text-medium">Теплица арочная<br />с размером 3 x 4 метров</h2>
+                                        <p class="text-regular">Сборка — своими руками.<br />Смотрите на видео, как установить самому<br />или заказать теплицу с установкой</p>
+                                    </section>
+                                    <button onclick="toggle()" class="green-button"><p class="text-bold">Закачать расчёт</p></button>
                                 </div>
-                            </a>
-                            <a class="card swiper-slide" href="#">
-                                <div class="thumbnail">
-                                    <img style="height: 13vw;" src="./img/Rectangle 1754.png"/>
-                                </div>
-                                <div class="card_info">
-                                    <h3 class="text-medium">Установка теплицы размером 4,8 метра</h3>
-                                    <p class="text-regular">Сборка и установка теплицы от компании «Вишневый Сад»</p>
-                                    <time class="inter-regular">15 июня 2022</time>
-                                </div>
-                            </a>
-                            <a class="card swiper-slide" href="#">
-                                <div class="thumbnail">
-                                    <img style="height: 13vw;" src="./img/Rectangle 1754.png"/>
-                                </div>
-                                <div class="card_info">
-                                    <h3 class="text-medium">Установка теплицы размером 4 метра</h3>
-                                    <p class="text-regular">Сборка и установка теплицы от компании «Вишневый Сад»</p>
-                                    <time class="inter-regular">15 июня 2022</time>
-                                </div>
-                            </a>
-                            <a class="card swiper-slide" href="#">
-                                <div class="thumbnail">
-                                    <img style="height: 13vw;" src="./img/Rectangle 1754.png"/>
-                                </div>
-                                <div class="card_info">
-                                    <h3 class="text-medium">Установка теплицы размером 7,8 метра</h3>
-                                    <p class="text-regular">Сборка и установка теплицы от компании «Вишневый Сад»</p>
-                                    <time class="inter-regular">15 июня 2022</time>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="swipers">
-                            <div class="swiper-button-prev"><img style="height: 1vw;" src="./img/arrow_left.png"/></div>
-                            <div class="swiper-button-next"><img style="height: 1vw;" src="./img/arrow_right.png"/></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="advantages auto-layout">
-                <h2 class="text-medium">Преимущества наших теплиц</h2>
-                <div class="container">
-                    <div class="advantage">
-                        <span class="text-medium">#1</span>
-                        <div class="group">
-                            <h3 class="text-bold">Надёжность</h3>
-                            <p class="text-regular">Каркас сделан из металла с применением технологии горячего цинкования, защищающим от коррозии до 30 лет</p>
-                        </div>
-                    </div>
-                    <div class="advantage">
-                        <span class="text-medium">#2</span>
-                        <div class="group">
-                            <h3 class="text-bold">Прочность</h3>
-                            <p class="text-regular">Профили арок 20х20 мм и 40х20 мм, на внутреннем изгибе прокатка, которая увеличивает продольную прочность в разы</p>
-                        </div>
-                    </div>
-                    <div class="advantage">
-                        <span class="text-medium">#3</span>
-                        <div class="group">
-                            <h3 class="text-bold">Стойкость</h3>
-                            <p class="text-regular">Каждая арка выдерживает нагрузку до 120 кг. Теплица устойчивая и выдерживает любые погодные условия.</p>
-                        </div>
-                    </div>
-                    <div class="advantage">
-                        <span class="text-medium">#4</span>
-                        <div class="group">
-                            <h3 class="text-bold">Защита от ультрафиолета</h3>
-                            <p class="text-regular">Поликарбонат торговой марки SkyPlast толщиной 4 мм, имеет защиту от ультрафиолетовых излучений 50 микрон. Заводская гарантия до 15 лет.</p>
-                        </div>
-                    </div>
-                    <div class="advantage">
-                        <span class="text-medium">#5</span>
-                        <div class="group">
-                            <h3 class="text-bold">Лёгкость сборки от использования</h3>
-                            <p class="text-regular">Вся фурнитура, крепления и инструкция по сборке в комплекте. Также в ходе консультации подскажем по любым вопросам.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sizes auto-layout">
-                <div class="container">
-                    <div class="size">
-                        <h2 class="text-medium">Мы предоставляем арочные<br />теплицы таких размеров</h2>
-                        <div class="size_list">
-                            <div class="list">
-                                <p class="text-bold">Ширина - 2,4 м</p>
-                                <p class="text-bold">Ширина - 3,3 м</p>
-                                <p class="text-bold">Ширина - 4 м</p>
                             </div>
-                            <div class="list">
-                                <p class="text-bold">Ширина - 3 м</p>
-                                <p class="text-bold">Ширина - 3,5 м</p>
-                                <p class="text-bold">Ширина - 6 м</p>
+                            <h3 class="text-medium">Так-же обратите внимание</h3>
+                            <div class="slider swiper">
+                                <div class="slider_container swiper-wrapper">
+                                    <a class="card swiper-slide" href="#">
+                                        <div class="thumbnail">
+                                            <img style="height: 13vw;" src="./img/Rectangle 1754.png"/>
+                                        </div>
+                                        <div class="card_info">
+                                            <h3 class="text-medium">Установка теплицы размером 4 метра</h3>
+                                            <p class="text-regular">Сборка и установка теплицы от компании «Вишневый Сад»</p>
+                                            <time class="inter-regular">15 июня 2022</time>
+                                        </div>
+                                    </a>
+                                    <a class="card swiper-slide" href="#">
+                                        <div class="thumbnail">
+                                            <img style="height: 13vw;" src="./img/Rectangle 1754.png"/>
+                                        </div>
+                                        <div class="card_info">
+                                            <h3 class="text-medium">Установка теплицы размером 4,8 метра</h3>
+                                            <p class="text-regular">Сборка и установка теплицы от компании «Вишневый Сад»</p>
+                                            <time class="inter-regular">15 июня 2022</time>
+                                        </div>
+                                    </a>
+                                    <a class="card swiper-slide" href="#">
+                                        <div class="thumbnail">
+                                            <img style="height: 13vw;" src="./img/Rectangle 1754.png"/>
+                                        </div>
+                                        <div class="card_info">
+                                            <h3 class="text-medium">Установка теплицы размером 4 метра</h3>
+                                            <p class="text-regular">Сборка и установка теплицы от компании «Вишневый Сад»</p>
+                                            <time class="inter-regular">15 июня 2022</time>
+                                        </div>
+                                    </a>
+                                    <a class="card swiper-slide" href="#">
+                                        <div class="thumbnail">
+                                            <img style="height: 13vw;" src="./img/Rectangle 1754.png"/>
+                                        </div>
+                                        <div class="card_info">
+                                            <h3 class="text-medium">Установка теплицы размером 7,8 метра</h3>
+                                            <p class="text-regular">Сборка и установка теплицы от компании «Вишневый Сад»</p>
+                                            <time class="inter-regular">15 июня 2022</time>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swipers">
+                                    <div class="swiper-button-prev"><img style="height: 1vw;" src="./img/arrow_left.png"/></div>
+                                    <div class="swiper-button-next"><img style="height: 1vw;" src="./img/arrow_right.png"/></div>
+                                </div>
                             </div>
                         </div>
-                        <span><button class="green-button"><p class="text-bold">Мне нужна консультация</p></button></span>
                     </div>
-                    <div class="vector">
-                        <img style="height: 27vw;" src="./img/figure.png"/>
-                    </div>
-                </div>
-            </div>
-            <div class="banner auto-layout">
-                <div class="container">
-                    <div class="banner_info">
-                        <h1 class="text-extrabold">Не нашли нужный<br />размер?</h1>
-                        <p class="text-regular">Изготовим теплицу по вашим потребностям.<br />Расскажем о преимуществах материалов,<br />проконсультируем как сэкономить.</p>
-                        <button class="green-button"><p class="text-bold">Подобрать размеры</p></button>
-                    </div>
-                    <img style="height: 30vw;" src="./img/image 15.png"/>
-                </div>
-            </div>
-            <div class="information auto-layout">
-                <div class="container">
-                    <div class="information_info">
-                        <div class="badge-green"><p class="text-bold">Новинка</p></div>
-                        <h2 class="text-medium">Автоматика для теплиц</h2>
-                        <p class="text-regular">Автоматические форточки, которые<br />самостоятельно регулируют температуру<br />в вашей теплице, открываясь и закрываясь,<br />упрощая уход за Вашими любимыми культурами</p>
-                        <div class="features">
-                            <span><img src="./img/Vector.png"/><p class="text-bold">Простота</p></span>
-                            <span><img src="./img/Vector.png"/><p class="text-bold">Доступность</p></span>
-                            <span><img src="./img/Vector.png"/><p class="text-bold">Польза</p></span>
+                    <div class="container">
+                        <h2 class="text-medium">Теплица арочная с размером<br />3 x 4 метров</h2>
+                        <div class="video_section_hero">
+                            <div class="video_frame">
+                                <a href="#open_video">
+                                    <div class="badge-yellow"><p class="text-bold auto-layout">Популярное</p></div>
+                                    <img style="height: 26.5vw;" src="./img/Rectangle 175.png" />
+                                </a>
+                            </div>
+                            <div class="video_info">
+                                <section>
+                                    <time class="inter-regular">6 июня 2022</time>
+                                    <h2 class="text-medium">Теплица арочная<br />с размером 3 x 4 метров</h2>
+                                    <p class="text-regular">Сборка — своими руками.<br />Смотрите на видео, как установить самому<br />или заказать теплицу с установкой</p>
+                                </section>
+                                <button onclick="toggle()" class="green-button"><p class="text-bold">Закачать расчёт</p></button>
+                            </div>
+                        </div>
+                        <h3 class="text-medium">Так-же обратите внимание</h3>
+                        <div class="slider swiper">
+                            <div class="slider_container swiper-wrapper">
+                                <a class="card swiper-slide" href="#">
+                                    <div class="thumbnail">
+                                        <img style="height: 13vw;" src="./img/Rectangle 174.png"/>
+                                    </div>
+                                    <div class="card_info">
+                                        <h3 class="text-medium">Установка теплицы размером 4 метра</h3>
+                                        <p class="text-regular">Сборка и установка теплицы от компании «Вишневый Сад»</p>
+                                        <time class="inter-regular">15 июня 2022</time>
+                                    </div>
+                                </a>
+                                <a class="card swiper-slide" href="#">
+                                    <div class="thumbnail">
+                                        <img style="height: 13vw;" src="./img/Rectangle 1754.png"/>
+                                    </div>
+                                    <div class="card_info">
+                                        <h3 class="text-medium">Установка теплицы размером 4,8 метра</h3>
+                                        <p class="text-regular">Сборка и установка теплицы от компании «Вишневый Сад»</p>
+                                        <time class="inter-regular">15 июня 2022</time>
+                                    </div>
+                                </a>
+                                <a class="card swiper-slide" href="#">
+                                    <div class="thumbnail">
+                                        <img style="height: 13vw;" src="./img/Rectangle 1754.png"/>
+                                    </div>
+                                    <div class="card_info">
+                                        <h3 class="text-medium">Установка теплицы размером 4 метра</h3>
+                                        <p class="text-regular">Сборка и установка теплицы от компании «Вишневый Сад»</p>
+                                        <time class="inter-regular">15 июня 2022</time>
+                                    </div>
+                                </a>
+                                <a class="card swiper-slide" href="#">
+                                    <div class="thumbnail">
+                                        <img style="height: 13vw;" src="./img/Rectangle 1754.png"/>
+                                    </div>
+                                    <div class="card_info">
+                                        <h3 class="text-medium">Установка теплицы размером 7,8 метра</h3>
+                                        <p class="text-regular">Сборка и установка теплицы от компании «Вишневый Сад»</p>
+                                        <time class="inter-regular">15 июня 2022</time>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swipers">
+                                <div class="swiper-button-prev"><img style="height: 1vw;" src="./img/arrow_left.png"/></div>
+                                <div class="swiper-button-next"><img style="height: 1vw;" src="./img/arrow_right.png"/></div>
+                            </div>
                         </div>
                     </div>
-                    <img style="height: 23vw;" src="./img/image 16.png"/>
                 </div>
-            </div>
-            <div class="form auto-layout">
+                <div class="advantages auto-layout">
+                    <h2 class="text-medium">Преимущества наших теплиц</h2>
+                    <div class="container">
+                        <div class="advantage">
+                            <span class="text-medium">#1</span>
+                            <div class="group">
+                                <h3 class="text-bold">Надёжность</h3>
+                                <p class="text-regular">Каркас сделан из металла с применением технологии горячего цинкования, защищающим от коррозии до 30 лет</p>
+                            </div>
+                        </div>
+                        <div class="advantage">
+                            <span class="text-medium">#2</span>
+                            <div class="group">
+                                <h3 class="text-bold">Прочность</h3>
+                                <p class="text-regular">Профили арок 20х20 мм и 40х20 мм, на внутреннем изгибе прокатка, которая увеличивает продольную прочность в разы</p>
+                            </div>
+                        </div>
+                        <div class="advantage">
+                            <span class="text-medium">#3</span>
+                            <div class="group">
+                                <h3 class="text-bold">Стойкость</h3>
+                                <p class="text-regular">Каждая арка выдерживает нагрузку до 120 кг. Теплица устойчивая и выдерживает любые погодные условия.</p>
+                            </div>
+                        </div>
+                        <div class="advantage">
+                            <span class="text-medium">#4</span>
+                            <div class="group">
+                                <h3 class="text-bold">Защита от ультрафиолета</h3>
+                                <p class="text-regular">Поликарбонат торговой марки SkyPlast толщиной 4 мм, имеет защиту от ультрафиолетовых излучений 50 микрон. Заводская гарантия до 15 лет.</p>
+                            </div>
+                        </div>
+                        <div class="advantage">
+                            <span class="text-medium">#5</span>
+                            <div class="group">
+                                <h3 class="text-bold">Лёгкость сборки от использования</h3>
+                                <p class="text-regular">Вся фурнитура, крепления и инструкция по сборке в комплекте. Также в ходе консультации подскажем по любым вопросам.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sizes auto-layout">
+                    <div class="container">
+                        <div class="size">
+                            <h2 class="text-medium">Мы предоставляем арочные<br />теплицы таких размеров</h2>
+                            <div class="size_list">
+                                <div class="list">
+                                    <p class="text-bold">Ширина - 2,4 м</p>
+                                    <p class="text-bold">Ширина - 3,3 м</p>
+                                    <p class="text-bold">Ширина - 4 м</p>
+                                </div>
+                                <div class="list">
+                                    <p class="text-bold">Ширина - 3 м</p>
+                                    <p class="text-bold">Ширина - 3,5 м</p>
+                                    <p class="text-bold">Ширина - 6 м</p>
+                                </div>
+                            </div>
+                            <span><button onclick="toggle()" class="green-button"><p class="text-bold">Мне нужна консультация<i class="fa fa-phone"></i></p></button></span>
+                        </div>
+                        <div class="vector">
+                            <img style="height: 27vw;" src="./img/figure.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner auto-layout">
+                    <div class="container">
+                        <div class="banner_info">
+                            <h1 class="text-extrabold">Не нашли нужный<br />размер?</h1>
+                            <p class="text-regular">Изготовим теплицу по вашим потребностям.<br />Расскажем о преимуществах материалов,<br />проконсультируем как сэкономить.</p>
+                            <button onclick="toggle()" class="green-button"><p class="text-bold">Подобрать размеры<i class="fa fa-ruler"></i></p></button>
+                        </div>
+                        <img style="height: 30vw;" src="./img/image 15.png"/>
+                    </div>
+                </div>
+                <div class="information auto-layout">
+                    <div class="container">
+                        <div class="information_info">
+                            <div class="badge-green"><p class="text-bold">Новинка</p></div>
+                            <h2 class="text-medium">Автоматика для теплиц</h2>
+                            <p class="text-regular">Автоматические форточки, которые<br />самостоятельно регулируют температуру<br />в вашей теплице, открываясь и закрываясь,<br />упрощая уход за Вашими любимыми культурами</p>
+                            <div class="features">
+                                <span><img style="height: 1.8vw;" src="./img/Vector.png"/><p class="text-bold">Простота</p></span>
+                                <span><img style="height: 1.8vw;" src="./img/Vector.png"/><p class="text-bold">Доступность</p></span>
+                                <span><img style="height: 1.8vw;" src="./img/Vector.png"/><p class="text-bold">Польза</p></span>
+                            </div>
+                        </div>
+                        <img style="height: 23vw;" src="./img/image 16.png"/>
+                    </div>
+                </div>
+                <div class="form auto-layout">
+                    <div class="container">
+                        <div class="form_info">
+                            <span>
+                                <h1 class="text-extrabold">Остались вопросы?</h1>
+                                <p>позвоните нам</p>
+                                <a href="tel:+380675203011"><h1 class="text-extrabold">+380 (67) - 520–3011</h1></a>
+                            </span>
+                            <form action="/action_page.php">
+                                <label for="phone"><p>или оставьте свой телефон и мы с вами свяжемся</p></label>
+                                <input type="tel" id="phone" name="phone" placeholder="+380 (__)-___-____" pattern="+[0-9]{3}-([0-9]{2})-[0-9]{3}-[0-9]{4}" required maxlength="20">
+                                <input type="submit" value="отправить">
+                            </form>
+                            <a href="#"><p class="text-bold">Политика конфиденциальности*</p></a>
+                        </div>
+                        <img style="height: 35vw;" src="./img/eglo.png"/>
+                    </div>
+                </div>
+            </main>
+            <footer class="auto-layout">
                 <div class="container">
-                    <div class="form_info">
-                        <span>
-                            <h1 class="text-extrabold">Остались вопросы?</h1>
-                            <p>позвоните нам</p>
-                            <a href="tel:+380675203011"><h1 class="text-extrabold">+380 (67) - 520–3011</h1></a>
-                        </span>
-                        <form action="/action_page.php">
-                            <label for="phone"><p>или оставьте свой телефон и мы с вами свяжемся</p></label>
-                            <input type="tel" id="phone" name="phone" placeholder="+380 (__)-___-____" pattern="+[0-9]{3}-([0-9]{2})-[0-9]{3}-[0-9]{4}" required maxlength="20">
-                            <input type="submit" value="отправить">
-                        </form>
-                        <a><p class="text-bold">Политика конфиденциальности*</p></a>
+                    <div class="logo">
+                        <a href="/"><img style="height: 4.5vw;" src="./img/logo_bw.png"/></a>
+                        <p class="text-bold">2022 © ALL RIGHTS RESERVED</p>
                     </div>
-                    <img style="height: 35vw;" src="./img/eglo.png"/>
-                </div>
-            </div>
-        </main>
-        <footer class="auto-layout">
-            <div class="container">
-                <div class="logo">
-                    <a href="/"><img style="height: 4.5vw;" src="./img/logo_bw.png"/></a>
-                    <p class="text-bold">2022 © ALL RIGHTS RESERVED</p>
-                </div>
-                <div class="contacts">
-                    <div class="socials">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    <div class="contacts">
+                        <div class="socials">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <a href="tel:+380675203011"><h1 class="text-extrabold">+380 (67) - 520–3011</h1></a>
                     </div>
-                    <a href="tel:+380675203011"><h1 class="text-extrabold">+380 (67) - 520–3011</h1></a>
                 </div>
-            </div>
-        </footer>
+            </footer>
+        </div>
     </body>
 </html>
 <script type="text/javascript">
+    //fix header on scroll
     window.addEventListener("scroll", function(){
         var header = document.querySelector("header");
         header.classList.toggle("sticky", window.scrollY > 0);
@@ -404,4 +417,12 @@
     spaceBetween: 30,
 
     });
+
+    //popup menu
+    function toggle(){ 
+        var bodyBlur = document.getElementById('blur');
+        bodyBlur.classList.toggle('active');
+        var popup = document.getElementById('popup');
+        popup.classList.toggle('active');
+    }
 </script>
